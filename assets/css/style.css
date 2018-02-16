@@ -152,5 +152,31 @@ textarea {
 
 .imagecontainer {
     float: left;
-    margin: 0 auto;
 }
+
+.row {
+    padding: 16px 0px;
+    float: left;
+    text-align: center;
+}
+
+.slot {
+    padding: 0px 20px;
+    float: left;
+    margin: auto;
+}
+
+.textcontainer {
+    background-color: #44ABA5;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/**--Having touble getting caption text to overlap portfolio images. 
+Thinking that I am going to need to reposition the images using relative position and use z-index to overlap.
+I could also change the img tags to divs and use the background image property in css. However, It is getting late on 
+Thursday night and I am all out of coding energy. I'm happy to rectify my mistake and resubmit after the weekend!**/
